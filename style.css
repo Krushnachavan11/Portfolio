@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.blur {
+    position: relative;
+    top: 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    /* Ensures it stays above other elements */
+    background-color: white;
+    /* Required to prevent see-through effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    /* Optional for elevation */
+}
+
+.navbar {
+
+    margin: 15px 25px;
+    padding: 5px;
+    width: 95vw;
+    height: 10vh;
+
+}
+
+.navlogo {
+    margin: 0px 0px 0px 20px;
+    font-size: 27px;
+    font-weight: 500;
+    color: #6060ef;
+}
+
+.navtab {
+    gap: 30px;
+}
+
+.navtab>a {
+    text-decoration: none;
+}
+
+.navtab span {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.navtab span:hover {
+    cursor: pointer;
+    color: #6060ef;
+    font-size: 18px;
+}
+
+.xmode {
+    filter: invert();
+}
+
+.xmode img:hover {
+    cursor: pointer;
+
+}
+
+main {
+    margin: 10px;
+    padding: 5px;
+}
+
+.maincontant {
+    width: 90vw;
+    height: 83vh;
+    /* border: 2px solid black; */
+    position: relative;
+    overflow: hidden;
+}
+
+.soicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: fixed;
+    left: 20px;
+    bottom: 0;
+}
+
+.soicons > a >img {
+    width: 30px;
+    height: 30px;
+}
+
+.soicons>img:hover {
+    cursor: pointer;
+}
+
+.maintext {
+    width: 33vw;
+    height: 60vh;
+    flex-direction: column;
+
+}
+
+.boldtext {
+    font-size: 35px;
+    font-weight: 800;
+    color: #6060ef;
+    flex-direction: column;
+}
+
+.summary {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.bbtn>a>button {
+    background: #6060ef;
+    color: white;
+    border: none;
+    width: 85px;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.maintext>button:hover {
+    cursor: pointer;
+    width: 87px;
+    height: 52px;
+}
+
+.mainimg {
+    width: 40vw;
+    height: 60vh;
+}
+
+.mainimg>img {
+    border-radius: 200px;
+    width: 28vw;
+    height: 58vh;
+    margin-right: 15px;
+    z-index: 1;
+}
+
+.bannar>img {
+    border-radius: 50px;
+    width: 28vw;
+    height: 62vh;
+    margin-right: 15px;
+
+}
+
+.acon {
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.abtext {
+    flex-direction: column;
+    height: 70vh;
+    width: 80vw;
+    overflow: hidden;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.aboutright {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.carousel-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.4s ease;
+}
+
+.carousel-card {
+    min-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .carousel-card {
+        min-width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-card {
+        min-width: 33.33%;
+    }
+}
+
+.carousel-buttons {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.carousel-buttons button {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+}
+
+.card-body h5 {
+    font-size: 1.1rem;
+}
+
+.btn-custom {
+    background-color: #6060ef;
+    color: white;
+    border: none;
+}
+.btn{
+        background-color: #6060ef;
+    color: white;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #6060ef;
+}
+
+
+
+.fcontainer {
+    margin: 5px;
+    padding: 5px;
+    width: 97vw;
+    height: 20vh;
+    flex-direction: column;
+    gap: 17px;
+    background-color: #6060ef;
+}
+
+.fimg {
+    gap: 20px;
+}
+
+.fimg >a >img {
+    width: 30px;
+    height: 30px;
+}
